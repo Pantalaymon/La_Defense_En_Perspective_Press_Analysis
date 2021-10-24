@@ -4,13 +4,13 @@ Presse analysis of the representations of "La Défense" During Master 2 Internsh
 
 In this repository you'll find the following directories and files:
 
-- corpus
-  - Toutes_mentions_Defense_EN.csv : 
-  - Toutes_mentions_Defense_FR.csv
+- corpus 
   - grandfinal_EN_indexé.xml : Semi-manually tagged english press corpus. The mentions of "La Défense" and its meronyms (locations inside La Defense) are surrounded by xml tags
-  - grandfinal_EN_annoté.xml : Final english corpus. Same as above with supplemented with semantic annotations in the element attributes. Those annotations are the work of a team of annotators
+  - grandfinal_EN_annoté.xml : Final english corpus. Same as above supplemented with semantic annotations in the element attributes.
   - grandfinal_FR_indexé.xml : Semi-manually tagged french press corpus. The mentions of "La Défense" and its meronyms (locations inside La Defense) are surrounded by xml tags
-  - grandfinal_FR_annoté.xml : Final French corpus. Same as above with supplemented with semantic annotations in the element attributes. Those annotations are the work of a team of annotators
+  - grandfinal_FR_annoté.xml : Final French corpus. Same as above supplemented with semantic annotations in the element attributes. 
+  - Toutes_mentions_Defense_EN.csv : The semantic annotations following a typology resulting from a linguistic analysis. Those annotations are the work of a team of annotators. English
+  - Toutes_mentions_Defense_FR.csv : The semantic annotations following a typology resulting from a linguistic analysis. Those annotations are the work of a team of annotators. French
 
 - detection_designations 
   - Detection_Designations_Defense_Camembert.ipynb : Training of a CamemBERT-based token classification (NER) to detect the mentions of "La Défense" in a french press corpus
